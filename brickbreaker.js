@@ -10,7 +10,7 @@ function setup() {
   for(let j=0; j<3; j++){
     for(let i=0; i<16; i++){
 
-      bricks.push(new Brick(i*60+30,40+30*j));
+      bricks.push(new Brick(i*60+30,40+50*j));
       reset();
 
     }
